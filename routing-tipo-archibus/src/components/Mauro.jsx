@@ -4,12 +4,20 @@ export default function Mauro () {
 
     return (
         <>
-            <h2>Choose Wisely</h2>
-            <ul>
-                <li>
-                    <Link to="/Mauro/1">Dettaglio</Link>
-                </li>
-            </ul>
+            <div className="text-align-center">
+                <h2>Choose Wisely</h2>
+                <ul>
+                    <li>
+                        <Link to="/Mauro/1">1</Link>
+                    </li>
+                    <li>
+                        <Link to="/Mauro/2">2</Link>
+                    </li>
+                    <li>
+                        <Link to="/Mauro/3">3</Link>
+                    </li>
+                </ul>
+            </div>
         </>
     )
 }
