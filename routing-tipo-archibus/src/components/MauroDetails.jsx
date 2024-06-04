@@ -11,10 +11,9 @@ export default function MauroDetails () {
         <>
         <section>
             <h5>Secret found: {secretId}, secret is {rick} </h5>
-            {parseInt(secretId) === rick ? 
+            {secretId == rick ? 
                 <h1>YOU LOSE!</h1>
             :
-            <h1>YOU WON!</h1>
             <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHY5NmQ1eGU1d2RpOXM5bGJzZjU5bTdwbXJ4ZDQxNWpic295NWExdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g7GKcSzwQfugw/giphy.webp" />
             }
 
