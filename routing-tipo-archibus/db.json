@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "myemail1@gmail.com",
+      "password": "kjfdsjf3",
+      "id": "5e86"
+    },
+    {
+      "email": "myemail2@gmail.com",
+      "password": "kjddddf3",
+      "id": "0548"
+    },
+    {
+      "id": "1f74",
+      "email": "dummyEmail@gmail.com",
+      "password": "pwd1"
+    },
+    {
+      "id": "a93c",
+      "email": "e1@mail.com",
+      "password": "1111111111"
+    },
+    {
+      "id": "5598",
+      "email": "a@gmail.com",
+      "password": "sadfasdfadfa"
+    },
+    {
+      "id": "57b8",
+      "email": "davide@gmail.com",
+      "password": "sfasdfa"
+    },
+    {
+      "id": "eb67",
+      "email": "aaa@gmail.com",
+      "password": "sdfad"
+    },
+    {
+      "id": "2cc6",
+      "email": "lorenzoperrella@skos.it",
+      "password": "aksosa"
+    },
+    {
+      "id": "9bc2",
+      "email": "lorenzoperrella@gmail.com",
+      "password": "anjandoiaid"
+    }
+  ]
+}
