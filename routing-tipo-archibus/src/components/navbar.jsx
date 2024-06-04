@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
-const Navbar = ({ li }) => {
+const Navbar = () => {
   const [window, setWindow] = useState(false);
 
   let openClose = () => {
@@ -16,21 +17,61 @@ const Navbar = ({ li }) => {
         <img src="vite.svg" alt="burger" />
       </div>
       <ul className="navbar__list">
-        {li.map((item, i) => (
-          <div className="navbar__li-box" key={i}>
+          <div className="navbar__li-box" >
             <img
-              src={item[1]}
-              alt={item[1]}
+              src="vite.svg"
               style={{ paddingLeft: window === false ? 27 : 17 }}
             />
             <li
               className="navbar__li"
               style={{ display: window === false ? "inline-block" : "none" }}
             >
-              {item[0]}
+              <NavLink
+                  to="/Lorenzo"
+                  className={({ isActive }) =>
+                    isActive ? "link active mx-3" : "link mx-3"
+                  }
+             >
+              Lorenzo
+              </NavLink>
+            </li>
+          </div> <div className="navbar__li-box" >
+            <img
+              src="vite.svg"
+              style={{ paddingLeft: window === false ? 27 : 17 }}
+            />
+            <li
+              className="navbar__li"
+              style={{ display: window === false ? "inline-block" : "none" }}
+            >
+              <NavLink
+                  to="/Mauro"
+                  className={({ isActive }) =>
+                    isActive ? "link active mx-3" : "link mx-3"
+                  }
+             >
+              Mauro
+              </NavLink>
+            </li>
+          </div> <div className="navbar__li-box" >
+            <img
+              src="vite.svg"
+              style={{ paddingLeft: window === false ? 27 : 17 }}
+            />
+            <li
+              className="navbar__li"
+              style={{ display: window === false ? "inline-block" : "none" }}
+            >
+              <NavLink
+                  to="/Matteo"
+                  className={({ isActive }) =>
+                    isActive ? "link active mx-3" : "link mx-3"
+                  }
+             >
+              Matteo
+              </NavLink>
             </li>
           </div>
-        ))}
       </ul>
     </nav>
   );
